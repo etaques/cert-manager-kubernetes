@@ -2,7 +2,7 @@ To install certificate at one domain on kubernetes cluster needs:
 
 ### 1 - create on kubernetes cluster one "cluster issuer" at your app namespace
 
-kubectl apply -f cluster-issuer.yaml -n observability
+```kubectl apply -f cluster-issuer.yaml -n observability```
 
 ### check it:
 ```
